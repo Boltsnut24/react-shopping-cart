@@ -6,6 +6,7 @@ const Item = props => {
 			<img src={props.image} alt={`${props.title} book`} />
 
 
+
 			<div>
 				<h1>{props.title}</h1>
 				<p>$ {props.price}</p>
